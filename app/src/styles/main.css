@@ -1,0 +1,148 @@
+.main_img{
+    margin: 0%;
+    height: 100vh;
+    background: url('../../public/assets/images/main-page.png');
+    background-color: #cccccc;
+    background-size: cover;
+    color: white;
+}
+
+.main-container{
+    padding: 0%;
+    margin: 0%;
+    max-width: 100vw;
+}
+
+.main-container .row{
+    margin: 0%;
+}
+
+.main-container .col-md-4, .main-container .col-md-8{
+    padding: 0%;
+}
+
+.main_img_text p{
+    color: white;
+    font-size: 2.2vw;
+    font-weight: bolder;
+}
+
+.main_img_text .sub-site-title{
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+
+.main_content{
+    padding-top: 7em;
+}
+
+.main_content .content{
+    margin-left: 8vw;
+    margin-right: 2vw;
+    text-align: justify;
+}
+
+.main_content .content img{
+    height: 6em;
+    margin-bottom: 20px;
+}
+.main_content .content div{
+    margin-bottom: 30px;
+}
+
+.main_content .content a{
+    width: 250px;
+    background-color: #137DC5;
+}
+
+.navbar-brand img{
+    height: 2.7em;
+}
+
+.main-nav-brand{
+    margin-right: auto !important;
+}
+
+.main-header a, .dropdown a {
+    text-decoration: none;
+}
+
+.main-header nav a{
+    color: rgba(0,0,0,.55) !important;
+}
+
+.dropdown a {
+    color: black;
+}
+
+.dropdown-name{
+    margin-left: 30px;
+}
+
+.dropdown-menu{
+    margin-left: 5.2em;
+    margin-top: 0.5em;
+}
+
+.fixed-top{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.nav-highlight{
+    font-weight: 700;
+}
+
+table.mainTable {
+    margin: auto;
+    width: 50% !important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* table a{
+    background-color: #137dc5 !important;
+    border-color: #137dc5 !important;
+}
+
+table a.active{
+    background-color: #115c8f !important;
+    border-color: #115c8f !important;
+} */
+
+table.mainTable a{
+    background-color: white !important;
+    border-color: black !important;
+    color: black !important;
+}
+
+table.mainTable a.active{
+    background-color: #115c8f !important;
+    border-color: #115c8f !important;
+    color: white !important
+}
+
+table {
+    margin: auto;
+    width: 35% !important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.is-diabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.images{
+    opacity: 0.5;
+}
+
+.loader-image{
+    height: 5em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
