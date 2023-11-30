@@ -1,9 +1,7 @@
-# Clinical Authentication as a Service (CAaaS)
+# CardioCheck
 
 ## About
 An ML Application where medical facilities, hospitals and even patients can push their medical attributes and clinical history like Blood Pressure, Weight, Height, Demographics, blood test reports, X-Ray images and ECG Reports and the application would generate a Clinical Risk Score based on Computer Vision and Probabilistic Models.
-
-DEMO 👉  [https://drive.google.com/file/d/1wuMWpW7gbJPRmYSNLTiKRZtY3SeN8nUF/view?usp=sharing](https://drive.google.com/file/d/1wuMWpW7gbJPRmYSNLTiKRZtY3SeN8nUF/view?usp=sharing)
 
 ## Technology Stack
 - React
@@ -19,7 +17,7 @@ DEMO 👉  [https://drive.google.com/file/d/1wuMWpW7gbJPRmYSNLTiKRZtY3SeN8nUF/vi
 ## Setup
 Get the code by cloning this repository using git
 ```
-git clone https://github.com/harshakoneru98/CAaaS.git
+git clone https://github.com/NimishLingesh/Cardio_Check.git
 ```
 Once downloaded, open terminal in the project directory, go to app folder and install dependencies with:
 ```
