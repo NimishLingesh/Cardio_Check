@@ -22,6 +22,8 @@ git clone https://github.com/NimishLingesh/Cardio_Check.git
 Once downloaded, open terminal in the project directory, go to app folder and install dependencies with:
 ```
 npm install
+OR
+sudo npm install --legacy-peer-deps
 ```
 Open another terminal in the project directory, go to server folder and install dependencies with:
 ```
@@ -56,6 +58,7 @@ scikit-learn
 ## Run the Application
 First open the terminal at app folder in project directory. Run the following command to run the front-end application.
 ``` bash
+export SET NODE_OPTIONS=--openssl-legacy-provider
 npm run dev
 ```
 Next open the terminal at server folder in project directory. Run the following command to run the back-end server.
